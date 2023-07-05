@@ -7,17 +7,17 @@ import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Precedent - Building blocks for your Next.js project",
+  title: "Vezber - Building blocks for your project",
   description:
-    "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
+    "Vezber is the all-in-one solution for your project. It includes a design system, authentication, analytics, and more.",
   twitter: {
     card: "summary_large_image",
-    title: "Precedent - Building blocks for your Next.js project",
+    title: "Vezber - Building blocks for your project",
     description:
-      "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-    creator: "@steventey",
+      "Vezber is the all-in-one solution for your project. It includes a design system, authentication, analytics, and more.",
+    creator: "@vezber.com",
   },
-  metadataBase: new URL("https://precedent.dev"),
+  metadataBase: new URL("https://vezber.com"),
   themeColor: "#FFF",
 };
 

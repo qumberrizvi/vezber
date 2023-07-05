@@ -2,7 +2,7 @@
 import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
-export const alt = "Precedent - Building blocks for your Next.js project";
+export const alt = "Vezber - Building blocks for your project";
 export const contentType = "image/png";
 
 export default async function OG() {
@@ -26,8 +26,8 @@ export default async function OG() {
         }}
       >
         <img
-          src={new URL("../public/logo.png", import.meta.url).toString()}
-          alt="Precedent Logo"
+          src={new URL("../public/icon.svg", import.meta.url).toString()}
+          alt="Vezber Logo"
           tw="w-20 h-20 mb-4 opacity-95"
         />
         <h1
@@ -42,7 +42,7 @@ export default async function OG() {
             letterSpacing: "-0.02em",
           }}
         >
-          Precedent
+          Vezber
         </h1>
       </div>
     ),
