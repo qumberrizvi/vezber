@@ -2,7 +2,7 @@
 import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
-export const alt = "Vezber - Building blocks for your project";
+export const alt = "Vezber - Hire world's best remote talents";
 export const contentType = "image/png";
 
 export default async function OG() {

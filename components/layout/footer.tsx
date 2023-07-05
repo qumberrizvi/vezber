@@ -2,13 +2,8 @@ export default function Footer() {
   return (
     <div className="absolute w-full border-t border-gray-200 bg-white py-5 text-center">
       <p className="text-gray-500">
-        A product by{" "}
-        <a
-          className="font-medium text-gray-800 underline transition-colors"
-          href="#"
-        >
-          Vezber Technology Private Limited
-        </a>
+          ©{` ${new Date().getFullYear()} `}
+          Vezber Technology Private Limited. All rights reserved.
       </p>
     </div>
   );
