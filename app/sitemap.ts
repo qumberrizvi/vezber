@@ -14,6 +14,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: "https://vezber.com",
       lastModified: new Date(),
     },
+    {
+      url: "https://vezber.com/contact",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://vezber.com/terms",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://vezber.com/privacy",
+      lastModified: new Date(),
+    },
     ...users.map((user) => ({
       url: `https://vezber.com/${user.id}`,
       lastModified: new Date(),
