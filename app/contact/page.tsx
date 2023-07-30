@@ -6,7 +6,7 @@ export default async function Contact() {
     return (
         <>
             <div
-                className="z-10 my-10 w-full max-w-screen-xl animate-fade-up grid grid-cols-2 gap-5 px-5 xl:px-0">
+                className="z-10 my-10 w-full max-w-screen-xl animate-fade-up grid md:grid-cols-2 grid-cols-1 gap-5 px-5 xl:px-0">
                 <div>
                     <h2 className="bg-gradient-to-br from-black to-stone-500 bg-clip-text font-display text-xl font-bold text-transparent md:text-3xl md:font-normal">
                         <Balancer>Get in touch</Balancer>
