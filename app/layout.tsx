@@ -7,14 +7,14 @@ import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Vezber - Hire world's best remote talents",
+  title: "Vezber - Where technology meets imagination",
   description:
-    "A platform that enables businesses to hire effectively and 10 times more quickly from all over the world. A talent pool that has been screened for technical expertise, language ability, and behavioral traits.",
+    "Cutting edge software solutions, cloud mastery, and unparalleled IT services. We fuel your growth and conquer challenges!",
   twitter: {
     card: "summary_large_image",
-    title: "Vezber - Hire world's best remote talents",
+    title: "Vezber - Where technology meets imagination",
     description:
-      "A platform that enables businesses to hire effectively and 10 times more quickly from all over the world. A talent pool that has been screened for technical expertise, language ability, and behavioral traits.",
+      "Cutting edge software solutions, cloud mastery, and unparalleled IT services. We fuel your growth and conquer challenges!",
     creator: "@vezber.com",
   },
   metadataBase: new URL("https://vezber.com"),

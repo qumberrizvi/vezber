@@ -13,7 +13,6 @@ export default function NavBar({ session }: { session: Session | null }) {
 
   return (
     <>
-      <SignInModal />
       <div
         className={`fixed top-0 w-full flex justify-center ${
           scrolled
@@ -31,17 +30,10 @@ export default function NavBar({ session }: { session: Session | null }) {
               className="mr-2 rounded-sm"
             ></Image>
           </Link>
-          <div>
-            {session ? (
-              <UserDropdown session={session} />
-            ) : (
-              <button
-                className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
-                onClick={() => setShowSignInModal(true)}
-              >
-                Sign In
-              </button>
-            )}
+
+          <div className="space-x-5 font-display">
+            <Link href={'/'} className="font-display">Home</Link>
+            <Link href={'/contact'} className="font-display">Contact</Link>
           </div>
         </div>
       </div>
