@@ -1,6 +1,7 @@
 import Card from "@/components/shared/card";
 import Balancer from "react-wrap-balancer";
 import Link from "next/link";
+import ContactForm from "@/components/shared/contact-form";
 
 export default async function Contact() {
     return (
@@ -35,6 +36,7 @@ export default async function Contact() {
                 <div>
                     <Card>
                         <div className="w-full p-5">
+                            <ContactForm/>
                         </div>
                     </Card>
                 </div>
