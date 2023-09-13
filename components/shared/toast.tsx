@@ -38,7 +38,7 @@ export default function Toast(
                 </Close>
             </Root>
             <Viewport
-                className="[--viewport-padding:_25px] fixed bottom-[10vh] right-[35vw] flex flex-col p-[var(--viewport-padding)] gap-[10px] w-[390px] max-w-[100vw] m-0 list-none z-[2147483647] outline-none"/>
+                className="[--viewport-padding:_25px] fixed bottom-[10vh] right-1 md:right-[35vw] flex flex-col p-[var(--viewport-padding)] gap-[10px] w-[390px] max-w-[100vw] m-0 list-none z-[2147483647] outline-none"/>
         </Provider>
     );
 }
