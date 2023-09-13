@@ -61,3 +61,9 @@ export const truncate = (str: string, length: number) => {
   if (!str || str.length <= length) return str;
   return `${str.slice(0, length)}...`;
 };
+
+export function oneWeekAway() {
+  const now = new Date();
+  const inOneWeek = now.setDate(now.getDate() + 7);
+  return new Date(inOneWeek);
+}
