@@ -30,12 +30,12 @@ export default async function Home() {
           >
             <p>Start a Project</p>
           </Link>
-          <Link
-            className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800"
-            href={'/contact'}
-          >
-            <p>Ask a Question</p>
-          </Link>
+          {/*<Link*/}
+          {/*  className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800"*/}
+          {/*  href={'/contact'}*/}
+          {/*>*/}
+          {/*  <p>Ask a Question</p>*/}
+          {/*</Link>*/}
         </div>
       </div>
     </>
