@@ -4,7 +4,8 @@ import cx from "classnames";
 import { sfPro, inter } from "./fonts";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
-import { Suspense } from "react";
+import {ReactNode, Suspense} from "react";
+import {Chat} from "@/components/layout/chat";
 
 export const metadata = {
   title: "Vezber - Where technology meets imagination",
@@ -24,7 +25,7 @@ export const metadata = {
 export default async function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <html lang="en">
@@ -38,6 +39,7 @@ export default async function RootLayout({
           {children}
         </main>
         <Footer />
+        <Chat />
         <Analytics />
       </body>
     </html>
