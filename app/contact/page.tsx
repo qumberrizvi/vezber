@@ -2,6 +2,12 @@ import Card from "@/components/shared/card";
 import Balancer from "react-wrap-balancer";
 import Link from "next/link";
 import ContactForm from "@/components/shared/contact-form";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: "Contact | Vezber - Where technology meets imagination",
+    description: "Connect with Vezber - Your Trusted Digital Transformation Partner. Contact us today to explore innovative solutions, expert IT services, and seamless support for your business.",
+}
 
 export default async function Contact() {
     return (
