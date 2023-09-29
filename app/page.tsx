@@ -1,6 +1,7 @@
 import Balancer from "react-wrap-balancer";
 import Link from "next/link";
 import Card from "@/components/shared/card";
+import OurPartner from "@/components/shared/our-partners";
 
 export default async function Home() {
 
@@ -44,10 +45,13 @@ export default async function Home() {
 
 
         <div className="my-10 w-full max-w-screen-xl animate-fade-up px-5 md:grid-cols-3 xl:px-0 relative bottom-0">
-            <h2 className="py-5 text-2xl w-full text-center">Our Sponsors</h2>
-            <Card>
-                <p></p>
-            </Card>
+            <h1
+                className="py-5 animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-lg font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-4xl md:leading-[5rem]"
+                style={{animationDelay: "0.15s", animationFillMode: "forwards"}}
+            >
+                Our Sponsors
+            </h1>
+            <OurPartner></OurPartner>
         </div>
     </>
   );
