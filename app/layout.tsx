@@ -6,6 +6,7 @@ import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
 import {ReactNode, Suspense} from "react";
 import {Chat} from "@/components/layout/chat";
+import {GoogleAnalytics} from "@/components/layout/google-analytics";
 
 export const metadata = {
   title: "Vezber - Where technology meets imagination",
@@ -41,6 +42,7 @@ export default async function RootLayout({
         <Footer />
         <Chat />
         <Analytics />
+        <GoogleAnalytics />
       </body>
     </html>
   );
