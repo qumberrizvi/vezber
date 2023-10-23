@@ -33,6 +33,7 @@ function makeTextBody(formData: ContactForm) {
 
 > 🧑 Name: ${formData.firstName} ${formData.lastName}
 > ✉️ Email: ${formData.email}
+> 📞 Phone: ${formData.phone}
 > 💬 Message: ${formData.message}
 
 Cheers! 🍻`,

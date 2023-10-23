@@ -83,6 +83,26 @@ export default function ContactForm() {
                     </Control>
                 </Field>
 
+                <Field name={'phone'} className="grid mb-[10px]">
+                    <div className="flex items-baseline justify-between pb-1">
+                        <Label className="font-medium">Phone</Label>
+                        <Message match={'valueMissing'} className="text-[13px] opacity-[0.8]">
+                            Please provide your phone
+                        </Message>
+                        <Message className="text-[13px] opacity-[0.8]" match="patternMismatch">
+                            Please provide a valid phone
+                        </Message>
+                    </div>
+                    <Control asChild>
+                        <input
+                            className="box-border w-full bg-blackA5 shadow-blackA9 inline-flex h-[35px] appearance-none items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none shadow-[0_0_0_1px] hover:shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black] border-0"
+                            required
+                            type="tel"
+                            pattern="(^\+[1-9]{1}[0-9]{4,12}$)?((?:^\+[1-9]{1,3})?([0-9]{10}))$"
+                        />
+                    </Control>
+                </Field>
+
                 <Field name={'message'} className="grid mb-[10px]">
                     <div className="flex items-baseline justify-between pb-1">
                         <Label className="font-medium">Message</Label>
